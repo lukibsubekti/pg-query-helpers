@@ -1,0 +1,33 @@
+{
+  "name": "@lukibsubekti/pg-query-helpers",
+  "version": "0.0.1",
+  "description": "PostgreSQL helpers based on `pg` module.",
+  "main": "./dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luki B. Subekti",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "pg": "^8.7.1",
+    "sqlstring": "^2.3.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukibsubekti/pg-query-helpers.git"
+  },
+  "keywords": [
+    "nodejs",
+    "postgresql"
+  ],
+  "bugs": {
+    "url": "https://github.com/lukibsubekti/pg-query-helpers/issues"
+  },
+  "homepage": "https://github.com/lukibsubekti/pg-query-helpers#readme"
+}
